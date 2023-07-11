@@ -275,14 +275,18 @@ a {
 
 /* Subscribe section */
 
-.subscribe-section {
-    border-radius: 8px;
+.subscribe-section{
+    width: 1140px;
+    height: 400px;
     background: url('images/Rectangle-9.png'), lightgray 0px -203.444px / 100% 213.755%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 125px 130px;
-    padding: 120px;
+    border-radius: 8px;
+}
+.subscribe{
+    padding-top: 100px;
 }
 
 .subscribe-container {
