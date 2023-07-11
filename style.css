@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* header section start */
+
+.header-section {
+    width: 100%;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
+}
+
+.logo a{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 130px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.logo a span{
+    color: #E55473;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.hero-container .hero-content {}
+
+.hero-content .hero-title {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.hero-content .hero-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.hero-container .hero-image {
+    width: 435px;
+    height: 600px;
+    display: flex;
+}
+
+.hero-container .hero-image img {
+    width: 100%;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    margin-top: ;
+}
+
+.features-section {
+    margin: 130px 0;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+
+.feature-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 130px;
+}
+.feature-card{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.feature-card img {
+    padding: 50px 0 50px;
+    width: 310px;
+    height: 428px;
+    position: relative;
+}
+
+.feature-card::before{
+    content: '';
+    width: 364px;
+    height: 438px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    position: absolute;
+    z-index: -1;
+}
+
+/* services section */
+.service-section {
+    width: 89%;
+}
+
+.service-container {
+    display: flex;
+
+}
+
+.hot-deal {
+    margin: 125px 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.06);
+}
+
+.hot-deal-img {
+    width: 318px;
+    height: 420px;
+}
+
+.hot-deal-img img {
+    width: 100%;
+}
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-title span {
+    color: #E55473;
+}
+
+.hot-deal-text {
+    margin-bottom: 30px;
+}
+
+/* social-media section start */
+
+.social-media {
+    width: 100%;
+}
+
+.social-container {
+    display: flex;
+    padding: 0 120px;
+}
+
+.social-media-card {
+    padding: 0 15px;
+}
+
+.social-media-card img {
+    width: 100%;
+}
+
+/* Subscribe section start */
+
+.subscribe-section {
+    border-radius: 8px;
+    background: url('images/Rectangle-9.png'), lightgray 0px -203.444px / 100% 213.755%;
+    background-repeat: no-repeat;
+    margin: 125px 130px;
+    padding: 120px;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-section input {
+    width: 500px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.subscribe-button {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+
+}
+
+/* footer-section */
+
+.footer-section {
+    background: #111010;
+    padding: 125px 0;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-title span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+.footer-caption {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
